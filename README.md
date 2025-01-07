@@ -18,3 +18,4 @@ step5: Your ci/cd pipeline is created
 ![image](https://github.com/user-attachments/assets/41a040c3-b2b6-4146-8b32-93ed5d54e1ea)
 
 
+https://github.com/orgs/NSPL-Odoo-Team/invitation?invitation_token=3f3dd1160f79ef546149985327946a8de13a0469&via_email=1
