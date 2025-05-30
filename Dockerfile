@@ -1,10 +1,11 @@
-FROM python:3.11-slim
+FROM python:3.9-slim
+
 WORKDIR /app
-ENV PYTHONDONTWRITEBTYECODE=1
-ENV PYTHONUNBUFFERED=1
-COPY requirements.txt .
+
+COPY . /app
+
 RUN pip install -r requirements.txt
 
-COPY . .
+EXPOSE 80
 
-CMD ["python", "app.py"]
+CMD ["python", "./app.py"]
